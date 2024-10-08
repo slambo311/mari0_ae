@@ -38,6 +38,7 @@
 	"blueshellcolor": [[252,252,252], [0,0,168], [252,152,56]],
 
 	"smallducking": true,
+	"breaksblockssmall" = true
 
 	"swimpushframes": 1,
 	"fenceframes": 2,
