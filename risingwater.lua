@@ -56,9 +56,6 @@ function risingwater:init(x, y, r)
 	elseif self.t == "quicksand" then
 		self.quadi = 5
 		self.animdelay = 0.2
-	elseif self.t == "quicksandtop" then
-		self.quadi = 5
-		self.animdelay = 0.2
 	end
 
 	if self.t == "clear water" or self.t == "water" then
@@ -68,7 +65,7 @@ function risingwater:init(x, y, r)
 		self.water = true
 		self.hurt = true
 		self.checktable = {"player", "enemy"}
-	elseif self.t == "quicksand" or self.t == "quicksandtop" then
+	elseif self.t == "quicksand" then
 		self.sand = true
 		self.sandsink = 80
 		self.sandspeedy = 0.9

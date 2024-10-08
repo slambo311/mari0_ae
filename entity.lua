@@ -1828,7 +1828,7 @@ rightclicktype["risingwater"] = {
 	format = {
 		{"button", 1, {"  set area  ", function(var, step) startrcregion(var, step) end, {1, 2}}},
 		"type:",
-		{"dropdown", 5, 11, nil, {"clear water", "water", "poison", "poison water", "lava", "quicksand", "quicksandtop"}},
+		{"dropdown", 5, 11, nil, {"clear water", "water", "poison", "poison water", "lava", "quicksand"}},
 		"fill:",
 		{"slider", 6, range = {0, 1, round = 5}},
 		"fill speed:",
