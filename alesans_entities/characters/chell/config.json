@@ -39,7 +39,7 @@
 	"tanookisuitcolor": [[200,76,12], [0,0,0], [252,152,56]],
 	"superballcolor": [[100,100,50], [160,160,100], [230,230,180]],
 
-	"smallducking": false,
+	"smallducking": true,
 
 	"swimpushframes": 1,
 	"fenceframes": 2,
