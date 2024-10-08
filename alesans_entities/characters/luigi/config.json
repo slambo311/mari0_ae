@@ -43,7 +43,7 @@
 	"jumpforceadd": 1.6, 
 	"skid": true,
 	
-	"smallducking": false,
+	"smallducking": true,
 
 	"swimpushframes": 1,
 	"fenceframes": 2,
