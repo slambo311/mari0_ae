@@ -1816,9 +1816,9 @@ rightclicktype["iciclebig"] = {
 }
 
 rightclicktype["risingwater"] = {
-	--region, type, fill, fill speed, link power, link reverse
+	--region, type, fill, fill speed, on top, link power, link reverse
 	name = "risingwater",
-	default = "1|1|0|0|water|1|3|false|.5",
+	default = "1|1|0|0|water|1|3|false|.5|false",
 	regionfunc = function(w,h,x,y) --setting region vars
 		rightclickvalues2[1] = w
 		rightclickvalues2[2] = h
@@ -1836,6 +1836,7 @@ rightclicktype["risingwater"] = {
 		{"checkbox", 8, "oscillate"},
 		"wait time:",
 		{"slider", 9, range = {0, 10, round = 2}},
+		{"checkbox", 10, "on top"},
 		{"button", 2, {"link power  ", startrclink, {"power", "power"}}, {"x", resetrclink, {"power"}, textcolor = {255, 0, 0}}},
 		{"button", 2, {"link reverse", startrclink, {"reverse", "reverse"}}, {"x", resetrclink, {"reverse"}, textcolor = {255, 0, 0}}}
 	},
