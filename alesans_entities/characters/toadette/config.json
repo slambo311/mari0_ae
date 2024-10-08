@@ -37,7 +37,7 @@
 	"boomerangcolor": [[32,56,236], [252,252,252], [252,216,168]],
 	"blueshellcolor": [[228,0,88], [252,252,252], [252,188,176]],
 
-	"smallducking": false,
+	"smallducking": true,
 
 	"swimpushframes": 1,
 	"fenceframes": 2,
