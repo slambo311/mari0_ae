@@ -27,7 +27,7 @@
 	"superballcolor": [[100,100,50], [160,160,100], [230,230,180]],
 	
 	"smallducking": true,
-	"groundpound": true
+	"groundpound": true,
 
 	"swimpushframes": 1,
 	"fenceframes": 2,
